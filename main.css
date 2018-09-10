@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Sabo';
+    src: url('fonts/sabo-filled-webfont.eot');
+    src: url('fonts/sabo-filled-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sabo-filled-webfont.woff2') format('woff2'),
+         url('fonts/sabo-filled-webfont.woff') format('woff'),
+         url('fonts/sabo-filled-webfont.ttf') format('truetype'),
+         url('fonts/sabo-filled-webfont.svg#sabofilled') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4496E4;
+    font-family: 'Helvetica Neue';
+}
+
+h1 {
+    font-family: 'Sabo', script;
+    color: white;
+    text-align: center;
+    display: inline;
+    margin-top: 50px;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+main {
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.question {
+    width: 360px;
+    height: 250px;
+
+}
+
+form {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+form > * {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.score {
+    position: relative;
+    border-radius: 10px;
+    width: 360px;
+    height: 50px;
+    text-align: center;
+    background-color: #EEEEEE;
+    font-size: 0.9em;
+    padding: 17px;
+    font-family: 'Sabo';
+}
+
+.score p {
+    display: inline;
+    font-size: em;
+}
+
+button {
+    width: 360px;
+    background-color: #28CB75;
+    color: #FFF;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Sabo';
+    margin-top: 20px;
+    font-size: 24px;
+
+}
+
+button:hover {
+    background-color: #20B766;
+}
+
+.hidden {
+    display: none;
+}

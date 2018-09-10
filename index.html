@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trivia Game</title>
+        <link href="main.css" rel="stylesheet">
+    </head>
+<body>
+    <header><h1>Trivia!</h1></header>
+    <main>
+        
+        <div class="question">
+            <!-- Questions -->
+            <p id="intro">Welcome to the Trivia Game!</p>
+            
+            <form class="hidden">
+                    <label>French is an official language of Canada.<br></label>
+                    <input type="radio" name="answer" value="true" checked> True<br>
+                    <input type="radio" name="answer" value="false"> False<br>
+            </form>
+        </div>
+        <div class="score">
+                <p>Remaining Q's: <span id="remaining">10 </span> ||</p>
+                <p>Correct Q's: <span id="correct">0</span></p>
+                    <!-- Answers and Remaining Questions -->
+            </div>
+        <div class="controls">
+            <button id="play">Play</button>
+            <button id="answer" class="hidden">Answer</button>
+            <button id="reset" class="hidden">Reset</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
